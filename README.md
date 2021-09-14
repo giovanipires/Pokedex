@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
 
+![Pokedex](https://user-images.githubusercontent.com/40005345/133299587-147f6213-2d05-4d0b-82b0-c831654597f1.gif)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
