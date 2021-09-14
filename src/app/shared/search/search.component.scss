@@ -1,0 +1,26 @@
+@import '../../../config-scss/rem-calc.scss';
+
+:host {
+   form {
+      align-items: center;
+      background-color: var(--search-color);
+      border-radius: rem-calc(10);
+      display: flex;
+      justify-content: space-between;
+      padding: rem-calc(15) rem-calc(20);
+
+      input {
+        background: none;
+        border: none;
+        font-size: rem-calc(18);
+        width: 98%;
+
+        color: var(--branco);
+
+        &::placeholder {
+          color: var(--placeholder-color);
+        }
+      }
+
+   }
+ }
