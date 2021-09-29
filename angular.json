@@ -85,6 +85,9 @@
           "options": {
             "browserTarget": "pokedex:build"
           }
+        },
+        "deploy": {
+          "builder": "@zeit/ng-deploy:deploy"
         }
       }
     }
