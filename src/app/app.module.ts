@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 //modules
 import { PagesModule } from './pages/pages.module';
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 
 //components
 
@@ -19,7 +20,9 @@ import { PagesModule } from './pages/pages.module';
     PagesModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [{
+    provide: LocationStrategy, useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
